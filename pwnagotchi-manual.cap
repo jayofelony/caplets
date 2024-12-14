@@ -9,6 +9,7 @@ set ui.port 80
 set api.rest.username pwnagotchi
 set api.rest.password pwnagotchi
 set api.rest.websocket true
+set events.stream.output /etc/pwnagotchi/log/bettercap-manu-session.log
 
 # go!
 api.rest on
