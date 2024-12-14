@@ -1,5 +1,8 @@
-# enable interface monitor mode and define wifi interface to be mon0
+# enable interface monitor mode and define wifi interface to be wlan0mon
 set wifi.interface wlan0mon
+
+# start logging to file
+set events.stream.output /etc/pwnagotchi/log/bettercap-manu-session.log
 
 # api listening on http://0.0.0.0:8081/ and ui to http://0.0.0.0
 set api.rest.address 0.0.0.0
@@ -9,7 +12,7 @@ set ui.port 80
 set api.rest.username pwnagotchi
 set api.rest.password pwnagotchi
 set api.rest.websocket true
-set events.stream.output /etc/pwnagotchi/log/bettercap-manu-session.log
+
 
 # go!
 api.rest on
