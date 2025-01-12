@@ -13,7 +13,6 @@ set api.rest.username pwnagotchi
 set api.rest.password pwnagotchi
 set api.rest.websocket true
 
-
 # go!
 api.rest on
 ui on

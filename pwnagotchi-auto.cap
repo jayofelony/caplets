@@ -5,12 +5,11 @@ set wifi.interface wlan0mon
 set events.stream.output /etc/pwnagotchi/log/bettercap-auto-session.log
 
 # api listening on http://127.0.0.1:8081/
-set api.rest.address 127.0.0.1
+set api.rest.address 0.0.0.0
 set api.rest.port 8081
 set api.rest.username pwnagotchi
 set api.rest.password pwnagotchi
 set api.rest.websocket true
-
 
 # go!
 api.rest on
